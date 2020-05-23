@@ -14,6 +14,4 @@ urlpatterns = [
     path('empleado/', include('catalogos.cat_m_empleado_urls')),
     path('flete/', include('catalogos.cat_m_flete_urls')),
     path('caja_banco/', include('catalogos.cat_m_cajabanco_urls')),
-    
-
 ]
